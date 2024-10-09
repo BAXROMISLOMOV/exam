@@ -1,0 +1,320 @@
+@import "wariables";
+main {
+  a {
+    text-decoration: none !important;
+  }
+  .main-cards {
+    width: 100%;
+    h3 {
+      width: 241px;
+      height: 52px;
+      font-family: Fira Code;
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 52px;
+      letter-spacing: -0.06em;
+      text-align: left;
+      margin-left: 120px;
+      margin-bottom: 24px;
+    }
+    .cards {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      .card {
+        text-align: center;
+        padding-top: 56px;
+        width: 274px;
+        height: 296px;
+        top: 990px;
+        border-radius: 10px;
+        h4 {
+          font-family: Fira Code;
+          font-size: 44px;
+          font-weight: 500;
+          line-height: 52px;
+          letter-spacing: -0.06em;
+          padding-top: 30px;
+        }
+        p {
+          font-family: Inter;
+          font-size: 25px;
+          font-weight: 400;
+          line-height: 34px;
+        }
+      }
+    }
+  }
+  .main-section {
+    // gap: 140px;
+    width: 100%;
+    display: flex;
+    margin-top: 168px;
+    padding-left: 107px;
+    .main-img {
+      width: 772px;
+      height: 579px;
+      display: flex;
+      gap: 30px;
+
+      .img-card1 {
+        position: relative;
+        bottom: 25px;
+        z-index: 2;
+        width: 354px;
+      }
+    }
+    .main-text {
+      // width: 482px;
+      // height: 256px;
+      padding-top: 147px;
+      h3 {
+        width: 423px;
+        height: 34px;
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 34px;
+        text-align: left;
+        margin-bottom: 24px;
+      }
+      p {
+        width: 482px;
+        height: 104px;
+        top: 1629px;
+        left: 1103px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  #our-course {
+    padding-top: 50px;
+    .course-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 150px;
+      button {
+        border: 2px solid transparent;
+        padding-bottom: 10px;
+        background-color: transparent;
+      }
+
+      h2 {
+        //styleName: H3;
+        font-family: Fira Code;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 52px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        padding-bottom: 40px;
+      }
+    }
+    .course-cards {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 20px;
+      margin-top: 20px;
+
+      .course-card {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        background-color: transparent;
+        padding: 25px;
+        border-radius: 10px;
+
+        transition: 0.5s;
+
+        h3 {
+          margin-block: 10px;
+        }
+        .p {
+          margin-block: 10px;
+        }
+        p {
+          span {
+            font-size: 21px;
+          }
+        }
+        button {
+          padding: 8px 25px;
+          border-radius: 10px;
+          margin-top: 20px;
+          transition: 0.5s;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .section-project {
+    width: 100%;
+    margin-top: 244px;
+    .project {
+      display: flex;
+      justify-content: space-between;
+    }
+    h2 {
+      //styleName: H3;
+      font-family: Fira Code;
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 52px;
+      letter-spacing: -0.06em;
+      text-align: left;
+      padding-left: 100px;
+      padding-bottom: 40px;
+    }
+    .cards3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 auto;
+      margin-left: 50px;
+      .card3 {
+        text-align: center;
+        width: 354px;
+        height: 460px;
+        border-radius: 10px;
+        .btn3 {
+          width: 195px;
+          height: 50px;
+          top: 3453px;
+          left: 1375px;
+          padding: 12px 36px 12px 36px;
+          gap: 10px;
+          border-radius: 10px;
+          margin-top: 20px;
+          margin-right: 120px;
+          opacity: 0px;
+        }
+        h1 {
+          //styleName: S1 medium;
+          font-family: Inter;
+          font-size: 25px;
+          font-weight: 500;
+          line-height: 34px;
+          text-align: left;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          padding-left: 16px;
+        }
+        p {
+          //styleName: Body 1 reg;
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          text-align: left;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        .btn-a {
+          width: 300px;
+          display: inline-block;
+          margin-right: 90px;
+          font-family: Inter;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 28px;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .group {
+    h2 {
+      //styleName: H3;
+      font-family: Fira Code;
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 52px;
+      letter-spacing: -0.06em;
+      text-align: left;
+    }
+    .group-text {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 30px;
+    }
+
+    width: 100%;
+    .group-card {
+      justify-content: space-around;
+      display: flex;
+      .card {
+        width: 350px;
+        height: 476px;
+        padding: 42px 0;
+        text-align: center;
+        border-radius: 10px;
+        p {
+          padding-top: 16px;
+        }
+        .icon {
+          padding-top: 24px;
+        }
+      }
+    }
+  }
+  .degree {
+    .degree-text {
+      h2 {
+        //styleName: H3;
+        font-family: Fira Code;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 52px;
+        letter-spacing: -0.06em;
+        padding-left: 180px;
+        padding-top: 112px;
+      }
+    }
+    .degree-card {
+        display: flex;
+        padding: 24px 180px;
+        gap: 100px;
+        align-items: center;
+      .img-deg {
+        width: 738px;
+        height: 524px;
+        top: 4219px;
+        left: 207px;
+        gap: 0px;
+        opacity: 0px;
+      }
+      .text-deg {
+        width: 482px;
+        height: 102px;
+        top: 4430px;
+        left: 1103px;
+        gap: 0px;
+        opacity: 0px;   
+        h4 {
+          //styleName: S1 medium;
+          font-family: Inter;
+          font-size: 25px;
+          font-weight: 500;
+          line-height: 34px;
+          text-align: left;
+        }
+        p {
+          //styleName: Body 1 reg;
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+}
